@@ -1,14 +1,15 @@
 package com.jhonecmd.monitoring.logger.service;
 
-import com.jhonecmd.monitoring.logger.model.IncidentEntity;
-import com.jhonecmd.monitoring.logger.repository.IncidentRepository;
-import com.jhonecmd.monitoring.logger.startApp.StartApp;
-import com.jhonecmd.monitoring.logger.utils.AppLogger;
-import lombok.AllArgsConstructor;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.jhonecmd.monitoring.logger.model.IncidentEntity;
+import com.jhonecmd.monitoring.logger.repository.IncidentRepository;
+import com.jhonecmd.monitoring.logger.utils.AppLogger;
+
+import lombok.AllArgsConstructor;
 
 @Service
 @AllArgsConstructor
